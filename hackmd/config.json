@@ -1,0 +1,13 @@
+{
+    "production": {
+        "imageUploadType": "filesystem",
+        "defaultpermission" : "private",
+        "urladdport": true,
+        "email": false,
+        "allowemailregister" :false,
+        "db": {
+            "dialect": "sqlite",
+            "storage": "./db/db.hackmd.sqlite"
+          }
+    }
+}
